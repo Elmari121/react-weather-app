@@ -1,11 +1,12 @@
-import React from 'react';
-import './App.css';
-export default function App() {return (
+import React from "react";
+import Weather from "./weather";
+import "./App.css";
 
+export default function App() {
+  return (
     <div className="App">
-      <div className="container"> 
-      <h1>Weather App</h1>
-      
+      <div className="container">
+        <Weather defaultCity="New York" />
 
 <footer>
 This project was created by Elmari Robberts and is open-sourced on 
